@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  button {
+    border: none;
+  }
+
+  //Шапка
+  .header{
+    background-color: $primary_color;
+  }
+
+  .header__menu{
+    display: flex;
+    width: 100%;
+
+  }
+  .header__menu-item{
+    display: flex;
+  }
